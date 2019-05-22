@@ -1,0 +1,17 @@
+{
+  "name": "ChatroomApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd sockets && npm start\" \"cd frontend && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "react-scripts": "^3.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
